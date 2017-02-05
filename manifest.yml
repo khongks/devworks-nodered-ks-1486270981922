@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: devworks-nodered-ks
+  host: devworks-nodered-ks
+  disk_quota: 1024M
+  services:
+  - devworks-nodered-ks-cloudantNoSQLDB
+  - Language Translator-ks
+  - Conversation-ks
+  - Visual Recognition-ks
